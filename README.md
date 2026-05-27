@@ -1,10 +1,10 @@
-# BTC Portfolio Tracker
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=12,20,24&text=BTC%20Portfolio%20Tracker&fontAlign=50&fontAlignY=38&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Local%20DCA%20%2B%20PNL%20%2B%20CSV%20ledger&descAlign=50&descAlignY=62" alt="BTC Portfolio Tracker animated banner">
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Binance](https://img.shields.io/badge/Binance-read--only-F0B90B?style=for-the-badge&logo=binance&logoColor=black)
-![Bitcoin](https://img.shields.io/badge/Bitcoin-watch--only-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-local-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![CSV](https://img.shields.io/badge/Exports-CSV-2E7D32?style=for-the-badge)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2200&pause=700&color=F7931A&center=true&vCenter=true&width=760&lines=Python+3.11+local+tracker;Binance+read-only+API;Bitcoin+watch-only+wallet;SQLite+local+database;CSV+exports+for+DCA+history" alt="Animated stack badges">
+</p>
 
 Tracker local pour suivre ton DCA BTC depuis Binance jusqu'a ton adresse multisig.
 
