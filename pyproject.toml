@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "btc-portfolio-tracker"
+version = "0.1.0"
+description = "Local BTC DCA and PnL tracker using Binance read-only API plus watch-only BTC addresses."
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "rich>=13.7.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+]
+
+[project.scripts]
+btc-tracker = "btc_tracker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
